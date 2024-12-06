@@ -4,9 +4,6 @@
 
 ### Step-by-Step Instructions
 
-> [!NOTE]
-> You are already familiar with the task requirements. Let's go into detail.
-
 You work at a betting company. One of your tasks is to generate data for ML models. Some of the features include the average height, average weight, gender, and country of origin of athletes.
 
 Models are trained separately for each sport. Data on medal presence in an event is used as a target (output) for the ML model.
