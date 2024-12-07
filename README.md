@@ -38,16 +38,6 @@ The company wants to adjust betting odds as quickly as possible, so you are task
 - The code must include comments marking where each task step is implemented, e.g., `# Step 6.a): Writing to output Kafka topic`.
 ☝🏻 Acceptance criteria for the final project are mandatory for mentor evaluation. If any criteria are not met, the mentor will return the task for revision without evaluation. If you need clarification or are stuck, contact your mentor in Slack.
 
-**Maximum score: 50 points**
-- Step 1: 10 points
-- Step 2: 5 points
-- Step 3: 10 points
-- Step 4: 5 points
-- Step 5: 5 points
-- Step 6: 15 points (7 for streaming to the output Kafka topic and 8 for the database).
-
-Mistakes or shortcomings will proportionally reduce points at each step as determined by the mentor.
-
 ---
 
 ## Part 2: Building an End-to-End Batch Data Lake
@@ -120,3 +110,32 @@ Take one screenshot of the output for any table for each Spark job. You should h
 3. Create a single archive containing all the code files and a text document with screenshots, then attach it to the LMS. The archive name should follow the format `FP_LastName`.
 
 4. Attach the link to the `goit-de-fp` repository and submit it for review.
+
+---
+
+# TASK RESULTS
+
+## Part 1 | Building an End-to-End Streaming Pipeline 
+### - Запис даних у таблицю MySQL lesia-soloviova_enriched_athlete_avg
+![Data written in the table](assets/task_1_2.png)
+
+### - Запис даних у Kafka-топік lesia-soloviova_enriched_athlete_avg
+![Data written in the Kafka-topic](assets/task_1_1.png)
+
+## Part 2 | Building an Batch Data Lake
+
+### - Запис даних у таблицю bronze/athlete_event_results
+
+![Data_saved_in_the_bronze_athlete_event_results](assets/task_2_1.png)
+
+### - Запис даних у таблицю silver/athlete_event_results
+
+![Data_saved_in_the_silver_athlete_event_results](assets/task_2_2.png)
+
+### - Запис даних у таблицю gold/avg_stats
+
+![Data_saved_in_the_gold_avg_stats](assets/task_2_3.png)
+
+### - DAG з трьома відпрацьованими завданнями
+
+![Data_saved_in_the_gold_avg_stats](assets/task_2_4.png)
