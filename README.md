@@ -25,9 +25,6 @@ The company wants to adjust betting odds as quickly as possible, so you are task
 6. Stream the data (using the `forEachBatch` function) into:
    - (a) the output Kafka topic,
    - (b) the database.
-
-### The output data format should resemble the following:
-
 ...
 
 ### Acceptance and Evaluation Criteria
@@ -79,15 +76,9 @@ The main objective is to build a three-tier data processing architecture: from i
 
 - The code runs and produces the desired result.
 - Screenshots are provided to demonstrate the code's results (screenshots of output tables and the DAG graph are required).
+
 ☝🏻 Acceptance criteria for the final project are mandatory for mentor evaluation. If any criteria are not met, the mentor will return the task for revision without evaluation. If you need clarification or are stuck, contact your mentor in Slack.
 
-**Maximum score: 50 points**
-- Step 1: 15 points
-- Step 2: 15 points
-- Step 3: 10 points
-- Step 4: 10 points
-
-Mistakes or shortcomings will proportionally reduce points at each step as determined by the mentor.
 
 ---
 
